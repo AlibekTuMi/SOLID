@@ -16,12 +16,5 @@ public class Triangle implements Shape{
         double p = (a + b + c) / 2;
         double s = Math.sqrt(p*(p-a)*(p-b)*(p-c));
         return s;
-    }
-
-    @Override
-    public double volume() {
-        System.out.println("Треугольник не имеет объёма");
-        return 0;
-    }
-    
+    }   
 }

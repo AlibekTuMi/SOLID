@@ -1,6 +1,6 @@
 package ISP;
 
-public class Cube implements Shape {
+public class Cube implements VolShape {
     private int edge;
 
     public Cube(int edge) {

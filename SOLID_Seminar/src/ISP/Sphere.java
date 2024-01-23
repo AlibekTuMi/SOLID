@@ -1,6 +1,6 @@
 package ISP;
 
-public class Sphere implements Shape{
+public class Sphere implements VolShape{
     private int radius;
 
     public Sphere(int radius) {
